@@ -1,0 +1,21 @@
+// Import Varibales first & next mixins
+@import './abstract/variables';
+@import './abstract/mixins';
+
+//Import Vendor  (If exists)
+
+// Import Base
+@import './base/base';
+@import './base/typography';
+
+// Import Components
+
+// Import Layouts
+@import './layout/header';
+@import './layout/footer';
+
+// Import Pages
+@import './pages/home';
+
+// Import Utils at the end
+@import './base/utils';

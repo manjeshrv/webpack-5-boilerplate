@@ -1,0 +1,39 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  color: #777;
+}
+
+// CUSTOM SCROLLBAR
+/* width */
+::-webkit-scrollbar {
+  width: 0.8rem;
+  border-radius: 1;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #999;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  width: 0.5rem;
+  border-radius: 1rem;
+  background-color: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #777;
+}

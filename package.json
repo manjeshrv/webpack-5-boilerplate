@@ -1,0 +1,46 @@
+{
+  "name": "webpack-boilerplate",
+  "version": "1.0.0",
+  "description": "Sass, ES6 & Webpack 5 Boilerplate",
+  "main": "app.js",
+  "scripts": {
+    "start": "webpack serve --config ./config/webpack.dev.js",
+    "build": "webpack --config ./config/webpack.prod.js"
+  },
+  "keywords": [
+    "html",
+    "html5",
+    "css",
+    "css3",
+    "sass",
+    "scss",
+    "javascript",
+    "es6",
+    "webpack",
+    "webpack-5"
+  ],
+  "author": "Manjesh R V",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/preset-env": "^7.14.7",
+    "autoprefixer": "^10.3.1",
+    "babel-loader": "^8.2.2",
+    "clean-webpack-plugin": "^4.0.0-alpha.0",
+    "css-loader": "^6.0.0",
+    "html-loader": "^2.1.2",
+    "html-webpack-plugin": "^5.3.2",
+    "mini-css-extract-plugin": "^2.1.0",
+    "postcss-loader": "^6.1.1",
+    "sass": "^1.35.2",
+    "sass-loader": "^12.1.0",
+    "style-loader": "^3.1.0",
+    "webpack": "^5.44.0",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2",
+    "webpack-merge": "^5.8.0"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.26.0"
+  }
+}

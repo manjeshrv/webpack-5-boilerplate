@@ -1,0 +1,59 @@
+// MEDIA QUERY MANAGER
+
+// MIN WIDTH
+@mixin respondMin($breakpoint) {
+  @if $breakpoint == sm {
+    @media only screen and (min-width: 36em) {
+      @content;
+    } //576px
+  }
+  @if $breakpoint == md {
+    @media only screen and (min-width: 48em) {
+      @content;
+    } //768px
+  }
+  @if $breakpoint == lg {
+    @media only screen and (min-width: 62em) {
+      @content;
+    } //992px
+  }
+  @if $breakpoint == xl {
+    @media only screen and (min-width: 75em) {
+      @content;
+    } //1200px
+  }
+  @if $breakpoint == xxl {
+    @media only screen and (min-width: 87.5em) {
+      @content;
+    } //1400px
+  }
+}
+
+// MAX WIDTH
+@mixin respondMax($breakpoint) {
+  @if $breakpoint == sm {
+    @media only screen and (max-width: 35.9375em) {
+      @content;
+    } //575px
+  }
+  @if $breakpoint == md {
+    @media only screen and (max-width: 47.9375em) {
+      @content;
+    } //767px
+  }
+  @if $breakpoint == lg {
+    @media only screen and (max-width: 61.9375em) {
+      @content;
+    } //991px
+  }
+  @if $breakpoint == xl {
+    @media only screen and (max-width: 74.9375em) {
+      @content;
+    } //1199px
+  }
+  @if $breakpoint == xxl {
+    @media only screen and (max-width: 87.4375em) {
+      @content;
+    } //1399px
+  }
+}
